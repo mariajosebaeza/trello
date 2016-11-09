@@ -1,0 +1,21 @@
+/* section tareas: #0079BF;
+letras color:#F6F6F6; ventanas:#E2E4E6; boton guardar: #5EB54A;*/
+
+
+header {
+	background-color: #0067A3;
+	height: 6%;
+}
+
+body{
+	color:#F6F6F6;
+}
+.sectareas {
+	background-color: #0079BF;
+}
+
+.btn {
+	background-color: #0067A3;
+	color:#F6F6F6;
+	margin: 1%;
+}
