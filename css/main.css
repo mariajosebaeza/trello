@@ -1,12 +1,15 @@
 /* section tareas: #0079BF;
 letras color:#F6F6F6; ventanas:#E2E4E6; boton guardar: #5EB54A;*/
-
-
+/*header */ 
 header {
 	background-color: #0067A3;
-	height: 6%;
+	height: 9%;
+}
+h1{
+	margin-left: 20%;
 }
 
+/*Section */ 
 body{
 	color:#F6F6F6;
 }
@@ -14,8 +17,16 @@ body{
 	background-color: #0079BF;
 }
 
+texarea{
+	background-color: #FFF;
+}
+
 .btn {
 	background-color: #0067A3;
 	color:#F6F6F6;
 	margin: 1%;
 }
+
+.btnañadir{
+	background-color: #0079BF;
+} 

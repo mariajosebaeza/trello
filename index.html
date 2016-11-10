@@ -1,24 +1,51 @@
 <html lang="es">
-  <head>
-    <meta charset="utf-8">
-    <title>Trello</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="css/main.css"> 
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <title>Trello</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css"> 
+</head>
+<body>
   <header>
   	<div class="row">
   		<div class="col-xs-12 col-md-12">
+        <h2> Trello </h2>
   		</div>
   	</div>
   </header>
-  <section class="sectareas">
-  	<button type="button" class="btn btn-default" onclick="nuevaTarea()"> Añadir una lista </button>
+  <section>
+     <div class="container">
+       <div class="row">
+         <div class="col-xs-12">
+           <button type="button" onclick="nuevaTarea()" class="btn btn-info"> Nueva Tarea </button>
+         </div>    
+       </div>
+     </div>
+   </section>
+  
+ 
+
+   <!--maqueta para saber que hace en js -->  
+   <section>
+    <div class="container" id="padre">
+      <!-- * acá comienza el codigo en js *
+         <div class="row">
+          <div class="col-md-4 primer-input">
+            <input type="text" name="form-control" id="filaNueva" placeholder="Crear Fila ...">
+            <button type="button" onclick="guardarLista()" class="btn btn-info btn-guardar"> Guardar</button>         
+          </div>
+
+         <div class="col-xs-4 col-md-4 primer-input">
+          <h5> Titulo </h5>
+          <a> Añadir tarjeta </a>
+         </div>
+      </div> -->
+
+   </div> 
   </section>
-  <footer>
-  	
-  </footer>
-	<script src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/main.js"></script>
-  </body>
-  </html>
+
+  
+  <script src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
